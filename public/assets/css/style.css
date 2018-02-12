@@ -1,4 +1,5 @@
-html {
+
+  html {
         background-color: #FFC04C;
       }
     
@@ -49,7 +50,12 @@ html {
   border-radius: 25px;
   margin: 10px;
   padding: 10px;
+  background-color: #a8211b;
+ }
+
+ .burgerEaten:hover {
   background-color: #ffd1c9;
+
  }
 
   .addBurgerButton {
@@ -70,3 +76,8 @@ html {
  .addBurgerButton:hover {
   background-color:  #00B237;
  }
+
+ 
+
+    
+  
