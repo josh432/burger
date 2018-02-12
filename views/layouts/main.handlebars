@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eat the Burger</title>
+<link href="https://fonts.googleapis.com/css?family=Alice|Sacramento" rel="stylesheet">
+  
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+  html {
+        background-color: #FFC04C;
+      }
+    
+    h1 {
+      font-family: 'Sacramento', cursive;
+      color: red;
+      font-weight: bold;
+      font-size: 100px;
+    }
+
+    h2{
+      font-family: 'Sacramento', cursive;
+      color: red;
+      font-weight: bold;
+
+    }
+
+
+
+  
+
+    .burgerAvailable {
+  font-family: 'Alice', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+
+  border-radius: 25px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #7db353;
+  border: none;
+ }
+
+  .burgerAvailable:hover {
+  background-color: #00B237;
+ }
+
+  .burgerEaten {
+  font-family: 'Alice', cursive;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+
+  border-radius: 25px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #a8211b;
+ }
+
+ .burgerEaten:hover {
+  background-color: #ffd1c9;
+
+ }
+
+  .addBurgerButton {
+  font-family: 'Alice', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+
+  border-radius: 25px;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  background-color: #7db353;
+  border: none;
+ }
+
+ .addBurgerButton:hover {
+  background-color:  #00B237;
+ }
+
+ 
+
+    
+  </style>
+
+</head>
+<body>
+<!--page container -->
+<div class="container">
+	<br>
+	  <!-- Burger Image -->
+      <center>
+        <div class="row">
+          <img src="/assets/img/burger.png">
+        </div>
+      </center>
+
+     
+
+      <!-- Dynamically Add Burgers Here -->
+
+
+      {{{ body }}}
+
+      <center>
+        <div class="row">
+          <img src="/assets/img/chef.jpg" class="circle responsive-img">
+        </div>
+      </center>
+
+</div>
+</body>
+</html>

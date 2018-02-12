@@ -1,23 +1,21 @@
-// Pull in required dependencies
+// Node Dependency
 var mysql = require('mysql');
+var connection;
 
-var connection = mysql.createConnection({
+// For Heroku Deployment vs. Local MySQL Database
+if(process.env.JAWSDB_URL){
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
+}
+else{
+  connection = mysql.createConnection({
+  	port     : 3306,
+    host     : 'localhost',
+    user     : 'root',
+    password : 'password', // Add your password
+    database : 'burgers_db' // Add your database
+  });
+}
 
-  port: 3306,
-  host: "localhost",
-  user: "root",
-  password: "password",
-  database: "task_saver_db"
-});
 
-// Make the connection to MySQL
-connection.connect(function(err) {
-  if (err) {
-    console.error('ERROR: MySQL connection error -- ' + err.stack + '\n\n');
-    return;
-  }
-  console.log('Connected to MySQL database as id ' + connection.threadId + '\n\n');
-});
-
-// Export connection for ORM use
+// Export the Connection
 module.exports = connection;
