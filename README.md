@@ -14,7 +14,7 @@ Burgerlicious is a full-stack app that enables the user to select a burger to be
 ### Comments
 ***
 
-This app. was a challenge to program as it incorporates many different files that interact with one-another. It also uses Heroku which was quite hard to deploy to as the deployment instructions were difficult to comprehend. However, once coded and deployed, this was a fun app to style and see in action.
+This app. was a challenge to program as it incorporates many different files that interact with one-another. It also uses Heroku which was quite hard to deploy as the Heroku deployment instructions were difficult to comprehend. However, once coded and deployed, this was a fun app to style and see in action.
 
 
 ### Screen Shots
