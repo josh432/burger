@@ -9,7 +9,7 @@ Burgerlicious is a full-stack app that enables the user to select a burger to be
 ### Technologies Used
 ***
 
- It utilizes MySQL, Node.JS, HTML, Materialize CSS Framework, CSS, Handlebars, and Heroku.
+ It utilizes MySQL, Node.JS, HTML, Materialize CSS Framework, CSS, Handlebars, Javascript and Heroku.
 
 ### Comments
 ***
