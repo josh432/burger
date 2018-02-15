@@ -19,7 +19,7 @@ This app. was a challenge to program as it incorporates many different files tha
 
 ###Screen Shots
 ***
-(images/burger1.PNG)
+![burger1](https://user-images.githubusercontent.com/27470842/36269352-d21e106c-122d-11e8-8e5b-2db8d5df0148.PNG)
 (images/burger2.PNG)
 (images/burger3.PNG)
 
