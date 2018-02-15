@@ -14,7 +14,7 @@ Burgerlicious is a full-stack app that enables the user to select a burger to be
 ### Comments
 ***
 
-This app. was a challenge to program as it incorporates many different files that interact with one-another. It also uses Heroku which was quite hard to deploy as the Heroku deployment instructions were difficult to comprehend. However, once coded and deployed, this was a fun app to style and see in action.
+This app. demostrates a simple full-stack application with a front end using HTML and Components of the Materialize framework and a back-end implemented with Node.JS and Express. HTML templating is done with Handlebars. It was a challenge to program as it incorporates many different files that interact with one-another. Heroku deployment was the most difficult step for me. However, once coded and deployed, this was a fun app to style and see in action.
 
 
 ### Screen Shots
