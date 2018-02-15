@@ -27,6 +27,7 @@ This app. was a challenge to program as it incorporates many different files tha
 
 
 
-###Live App
+### Live App
 ***
+Please check out the live app on heroku:
 https://intense-fjord-55064.herokuapp.com/
