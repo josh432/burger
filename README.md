@@ -19,9 +19,9 @@ This app. was a challenge to program as it incorporates many different files tha
 
 ###Screen Shots
 ***
-[burger](images/burger1.PNG)
-[burger](images/burger2.PNG)
-[burger](images/burger3.PNG)
+(images/burger1.PNG)
+(images/burger2.PNG)
+(images/burger3.PNG)
 
 ###Live App
 ***
